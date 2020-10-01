@@ -7,7 +7,7 @@ const routes = [
     component: NbaPlayers
   },
   {
-    path: "/player/:id",
+    path: "/player/:id/:firstName/:lastName",
     name: "PlayerStat",
     props: true,
     component: PlayerStat

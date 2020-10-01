@@ -4,7 +4,7 @@
 - Open NBA-players-stats in code editor ;
 - In terminal from NBA-players-stats root go to <b>cd server</b> ;
 - <b>npm run dev</b> ;
-- Open new terminal, without shutingdown previous one ;
+- Open new terminal, without shutting down previous one ;
 - go to <b>cd client</b> ;
 - <b>npm run serve</b> ;
 

@@ -1,8 +1,15 @@
 import axios from "axios";
 
 class PlayerService {
-  static async getPlayer(id) {
-    const res = await axios.get("http://localhost:5000/nba-players/" + id);
+  static async getPlayer(id, firstName, lastName) {
+    const res = await axios.get(
+      "http://localhost:5000/nba-players/" +
+        id +
+        "/" +
+        firstName +
+        "/" +
+        lastName
+    );
     try {
       const data = res.data;
       let dataValue = Object.values(data);
